@@ -48,7 +48,7 @@ z = ones(100,1)*-20;
 
 figure('Name',name)
 % tiledlayout is the successor to the subplot function and requires
-% MATLAB 2019b or newer
+% MATLAB R2019b or newer
 t = tiledlayout(1,3,'TileSpacing','none','Padding','compact');
 title(t,name)
 
